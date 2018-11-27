@@ -1,0 +1,75 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+.yt-pr-bar {
+  width: 100%;
+  height: 4px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#eea2a2), color-stop(19%, #bbc1bf), color-stop(42%, #57c6e1), color-stop(79%, #b49fda), to(#7ac5d8));
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  -webkit-animation: gradient 20s ease-in-out;
+          animation: gradient 20s ease-in-out;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    width: 0%;
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  25% {
+    width: 23%;
+    -webkit-filter: hue-rotate(50deg);
+            filter: hue-rotate(50deg);
+  }
+  50% {
+    width: 50%;
+    -webkit-filter: hue-rotate(83deg);
+            filter: hue-rotate(83deg);
+  }
+  75% {
+    width: 83%;
+    -webkit-filter: hue-rotate(120deg);
+            filter: hue-rotate(120deg);
+  }
+  100% {
+    width: 100%;
+    -webkit-filter: hue-rotate(200deg);
+            filter: hue-rotate(200deg);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    width: 0%;
+    -webkit-filter: hue-rotate(0deg);
+            filter: hue-rotate(0deg);
+  }
+  25% {
+    width: 23%;
+    -webkit-filter: hue-rotate(50deg);
+            filter: hue-rotate(50deg);
+  }
+  50% {
+    width: 50%;
+    -webkit-filter: hue-rotate(83deg);
+            filter: hue-rotate(83deg);
+  }
+  75% {
+    width: 83%;
+    -webkit-filter: hue-rotate(120deg);
+            filter: hue-rotate(120deg);
+  }
+  100% {
+    width: 100%;
+    -webkit-filter: hue-rotate(200deg);
+            filter: hue-rotate(200deg);
+  }
+}
+/*# sourceMappingURL=index.css.map */
